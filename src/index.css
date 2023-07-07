@@ -9,7 +9,8 @@ button {
 }
 input {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border-color: black;
 }
 button {
   border: 1px solid gray;

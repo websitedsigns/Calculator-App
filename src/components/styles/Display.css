@@ -4,6 +4,7 @@
   padding: 10px;
   padding-bottom: 20px;
   background: linear-gradient(90deg, #06beb6, #48b1bf 100%);
+  
 }
 
 @media (min-width: 800px) {
@@ -27,6 +28,7 @@
   color: white;
   border: 0px;
   letter-spacing: 1.5px;
+  
 }
 
 .input {
