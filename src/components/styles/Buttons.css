@@ -1,7 +1,7 @@
 .show-btn {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  background-color: white;
+  background-color:black;
 }
 
 @media (min-width: 800px) {
@@ -23,42 +23,48 @@
   height: 50px;
   border-radius: 10px;
   color: white;
-  background-color: #6dd5ed;
+  background-color: black;
 }
 
 .clr {
-  color: #d66d75;
+  color: white;
 }
 
 .exp {
-  color: #06beb6;
+  color: white;
 }
 
 .btn {
-  width: 60px;
+  width: 50px;
   height: 60px;
   margin: 6px auto;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 100%;
   background: none;
   border: 0px;
   user-select: none;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  color:white;
+
 }
 
 @media (min-width: 800px) {
   .btn:hover {
-    background-color: #6dd5ed;
-    color: white;
+    background-color: red;
+    color: red;
     transition: background-color 0.3s ease;
     border-radius: 50%;
   }
 
   .btn:active,
   .btn.touched {
-    background-color: #48b1bf;
-    color: white;
+    background-color: red;
+    color: red;
     transition: background-color 0.3s ease;
     border-radius: 50%;
   }

@@ -10,7 +10,7 @@ button {
 input {
   display: block;
   margin-bottom: 10px;
-  border-color: black;
+  border-color: white;
 }
 button {
   border: 1px solid gray;
@@ -19,6 +19,11 @@ button {
 }
 button:nth-last-child(2),
 button:nth-last-child(1) {
-  background: tomato;
+  background: black;
   color: white;
+  
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }

@@ -3,8 +3,11 @@
   flex-direction: column;
   padding: 10px;
   padding-bottom: 20px;
-  background: linear-gradient(90deg, #06beb6, #48b1bf 100%);
-  
+  background: black;
+  border-bottom-style: double;
+  border-top-style: double;
+  border-color: white;
+
 }
 
 @media (min-width: 800px) {
@@ -26,15 +29,15 @@
   text-align: right;
   background-color: transparent;
   color: white;
-  border: 0px;
+  border: 10px;
   letter-spacing: 1.5px;
   
 }
 
 .input {
-  font-size: 35px;
+  font-size: 60px;
+  color: white;
 }
-
 .value {
   font-size: 15px;
 }
